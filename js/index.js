@@ -29,7 +29,7 @@ const contentURL = {
     sideDish: 'http://crong.codesquad.kr:8080/woowa/side',
     soupDish: 'http://crong.codesquad.kr:8080/woowa/soup',
     courseDish: 'http://crong.codesquad.kr:8080/woowa/course',
-    autoComplete: 'https://ko.wikipedia.org/w/api.php?action=opensearch&search='
+    autoComplete: 'http://crong.codesquad.kr:8080/ac/'
 }
 
 const tabView = new TabView({
