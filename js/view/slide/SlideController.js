@@ -13,12 +13,14 @@ export default class SlideController {
     nextSlide(idx) {
         this.slideContent.setCurrentIdx(idx);
         this.slideContent.showNextContent();
+        this.slideNavi.setCurrentIdx(idx);
         this.slideDots.highlightDot(this.slideContent.getCurrentIdx());
     }
 
     preSlide(idx) {
         this.slideContent.setCurrentIdx(idx);
         this.slideContent.showPreContent();
+        this.slideNavi.setCurrentIdx(idx);
         this.slideDots.highlightDot(this.slideContent.getCurrentIdx());
     }
 
